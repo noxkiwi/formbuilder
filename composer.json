@@ -1,0 +1,33 @@
+{
+  "name": "noxkiwi/formbuilder",
+  "description": "",
+  "version": "1.0.0",
+  "type": "package",
+  "license": "proprietary",
+  "keywords": [
+    "Form",
+    "Field",
+    "Fieldset",
+    "POST"
+  ],
+  "homepage": "https://nox.kiwi/",
+  "time": "2020-05-29",
+  "authors": [
+    {
+      "name": "Jan Nox",
+      "email": "jan@nox.kiwi",
+      "homepage": "https://nox.kiwi",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "noxkiwi/core": "*",
+    "noxkiwi/validator": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "noxkiwi\\formbuilder\\": "backend/class/"
+    }
+  }
+}
