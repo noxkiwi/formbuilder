@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "type": "package",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "Form",
     "Field",
@@ -15,15 +15,15 @@
   "authors": [
     {
       "name": "Jan Nox",
-      "email": "jan@nox.kiwi",
+      "email": "jan.nox@pm.me",
       "homepage": "https://nox.kiwi",
       "role": "Lead Developer"
     }
   ],
   "require": {
     "php": ">=8.0.0",
-    "noxkiwi/core": "*",
-    "noxkiwi/validator": "*"
+    "noxkiwi/core": "dev-master",
+    "noxkiwi/validator": "dev-master"
   },
   "autoload": {
     "psr-4": {
