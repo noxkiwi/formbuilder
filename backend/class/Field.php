@@ -33,6 +33,7 @@ final class Field implements FieldInterface
     public const        FIELDTYPE_FILE         = 'file';
     public const        TOKEN_FIELDISREQUIRED  = 'field_required';
     public const        FIELD_TITLE            = 'title';
+    public const        FIELD_DEFAULT          = 'default';
     public const        FIELD_DESCRIPTION      = 'description';
     public const        FIELD_DOMID            = 'domId';
     public const        FIELD_VALUE            = 'value';
