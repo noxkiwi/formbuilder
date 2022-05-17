@@ -3,7 +3,6 @@ namespace noxkiwi\formbuilder;
 
 /** @var \noxkiwi\formbuilder\Form $data */
 
-use noxkiwi\core\Helper\WebHelper;
 use noxkiwi\lightsystem\Frontend\Classes;
 
 $formId = $data->getConfig()->get('form_id');
